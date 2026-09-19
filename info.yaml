@@ -1,7 +1,7 @@
 project:
   source_files:
     - project.v
-  top_module: "tt_um_example"
+  top_module:  "tt_um_example"
   
   title:       "Hardware Electronic Dice"
   author:      "Open Source Hardware Contributor"
