@@ -1,9 +1,10 @@
+---
+# TinyTapeout project information
 project:
-  wokwi_id:    0
   source_files:
     - project.v
   top_module:  "tt_um_example"
-  
+
   title:       "Hardware Electronic Dice"
   author:      "Your Name"
   discord:     ""
