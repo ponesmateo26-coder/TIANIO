@@ -5,33 +5,33 @@ project:
     - project.v
   top_module:  "tt_um_example"
 
-  title:       "Hardware Electronic Dice"
+  title:       "Interactive VGA Fractal"
   author:      "Your Name"
   discord:     ""
-  description: "High-speed 1-to-6 counter driving a 7-segment display for random dice rolls."
+  description: "XOR fractal pattern generator outputting 640x480 VGA video."
   language:    "Verilog"
-  clock_hz:    50000000
+  clock_hz:    25175000
 
   tiles: "1x1"
 
 pinout:
-  ui[0]: "ROLL_BTN"
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "Offset Bit 0"
+  ui[1]: "Offset Bit 1"
+  ui[2]: "Offset Bit 2"
+  ui[3]: "Offset Bit 3"
+  ui[4]: "Offset Bit 4"
+  ui[5]: "Offset Bit 5"
+  ui[6]: "Offset Bit 6"
+  ui[7]: "Offset Bit 7"
 
-  uo[0]: "Segment A"
-  uo[1]: "Segment B"
-  uo[2]: "Segment C"
-  uo[3]: "Segment D"
-  uo[4]: "Segment E"
-  uo[5]: "Segment F"
-  uo[6]: "Segment G"
-  uo[7]: "Decimal Point"
+  uo[0]: "RED_MSB (R1)"
+  uo[1]: "GREEN_MSB (G1)"
+  uo[2]: "BLUE_MSB (B1)"
+  uo[3]: "VSYNC"
+  uo[4]: "RED_LSB (R0)"
+  uo[5]: "GREEN_LSB (G0)"
+  uo[6]: "BLUE_LSB (B0)"
+  uo[7]: "HSYNC"
 
   uio[0]: ""
   uio[1]: ""
