@@ -1,20 +1,20 @@
 project:
+  wokwi_id:    0
   source_files:
     - project.v
   top_module:  "tt_um_example"
   
   title:       "Hardware Electronic Dice"
-  author:      "Open Source Hardware Contributor"
+  author:      "Your Name"
   discord:     ""
   description: "High-speed 1-to-6 counter driving a 7-segment display for random dice rolls."
   language:    "Verilog"
-  clock_hz:    50000000  # 50 MHz standard system clock
+  clock_hz:    50000000
 
   tiles: "1x1"
 
 pinout:
-  # Inputs
-  ui[0]: "ROLL_BTN (Hold to roll, release to stop)"
+  ui[0]: "ROLL_BTN"
   ui[1]: ""
   ui[2]: ""
   ui[3]: ""
@@ -23,7 +23,6 @@ pinout:
   ui[6]: ""
   ui[7]: ""
 
-  # Outputs
   uo[0]: "Segment A"
   uo[1]: "Segment B"
   uo[2]: "Segment C"
@@ -32,3 +31,14 @@ pinout:
   uo[5]: "Segment F"
   uo[6]: "Segment G"
   uo[7]: "Decimal Point"
+
+  uio[0]: ""
+  uio[1]: ""
+  uio[2]: ""
+  uio[3]: ""
+  uio[4]: ""
+  uio[5]: ""
+  uio[6]: ""
+  uio[7]: ""
+
+yaml_version: 6
